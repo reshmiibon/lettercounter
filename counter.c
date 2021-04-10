@@ -43,6 +43,7 @@ int main()
     if (curchar >= 65 && curchar <= 90) count[curchar - 65]++;
     else if (curchar == ' ') spaces++;
     else other++;
+  }
 
   // Create the letter analysis table
   printf("\n\nLetter Analysis Complete!");
